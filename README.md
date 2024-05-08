@@ -1,5 +1,5 @@
 # Rhull11-s-neovim-config
-My personalized Neovim configuration filled with really cool plugins used primarily for Python development. I will add more language functionality in future updates.
+My personalized Neovim configuration filled with really cool plugins used primarily for Python development. I will add more language support in future updates.
 
 ## Installation
 In Max OS or Linux, simply copy the **nvim** folder to the **~/.config** folder.
