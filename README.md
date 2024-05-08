@@ -1,12 +1,12 @@
 # Rhull11-s-neovim-config
 My personalized Neovim configuration filled with really cool plugins used primarily for Lua and Python development. I will add more language functionality future updates.
 
-## Setup ##
+## Setup
 In Max OS or Linux, copy the **nvim** folder to the **~/.config** folder.
 
-##Plugins Included##
+## Plugins Included
 
-Plugin Package Manager: [Lazy](https://github.com/folke/lazy.nvim)
+Plugin Package Manager: [Lazy](https://github.com/folke/lazy.nvim)\n
 Splash theme: [Alpha](https://github.com/goolord/alpha-nvim)
 Editor theme: [kanagawa](https://github.com/rebelot/kanagawa.nvim) (using kanagawa-wave theme)
 Status line theme: [lualine](https://github.com/nvim-lualine/lualine.nvim)
