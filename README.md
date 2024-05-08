@@ -8,10 +8,13 @@ Make sure to back up your current nvim folder!
 ```
 # cd to ~/.config
 cd ~/.config
+
 # backup current config
 cp -r nvim nvim.backup
+
 # clone repo
 git clone https://github.com/Rhull11/Rhull11-s-neovim-config nvim
+
 # open nvim to automatically install plugins
 nvim
 ```
