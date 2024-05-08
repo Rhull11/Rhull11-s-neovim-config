@@ -5,7 +5,7 @@ My personalized Neovim configuration filled with really cool plugins used primar
 In Max OS or Linux, simply copy the **nvim** folder to the **~/.config** folder.
 Make sure to back up your current nvim folder!
 
-```
+```bash
 # cd to ~/.config
 cd ~/.config
 
