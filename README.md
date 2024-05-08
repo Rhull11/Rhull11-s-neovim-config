@@ -24,7 +24,7 @@ Editor theme: [kanagawa](https://github.com/rebelot/kanagawa.nvim) (using kanaga
 Status line theme: [lualine](https://github.com/nvim-lualine/lualine.nvim)  
 Syntax highlighting: [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)  
 Find/filter files: [Telescope](https://github.com/nvim-telescope/telescope.nvim)  
-File Explorer: [Neotree](https://github.com/nvim-neo-tree/neo-tree.nvim)
+File Explorer: [Neotree](https://github.com/nvim-neo-tree/neo-tree.nvim)  
 Glyphs: [Nvim Webdev Icons](https://github.com/nvim-tree/nvim-web-devicons) (make sure you download and install **Symbols Nerd Font** from [Nerdfonts.com](https://www.nerdfonts.com/font-downloads) downloads on your system)  
 Language Server Protocol (LSP) package manager - [Mason](https://github.com/williamboman/mason.nvim)  
 LSP diagnostics, code actions, linting and snippets - [none-ls](https://github.com/nvimtools/none-ls.nvim) (formerly null-ls)  
