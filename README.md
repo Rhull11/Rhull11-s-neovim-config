@@ -1,8 +1,20 @@
 # Rhull11-s-neovim-config
 My personalized Neovim configuration filled with really cool plugins used primarily for Lua and Python development. I will add more language functionality in future updates.
 
-## Setup
-In Max OS or Linux, copy the **nvim** folder to the **~/.config** folder.
+## Installation
+In Max OS or Linux, simply copy the **nvim** folder to the **~/.config** folder.
+Make sure to back up your current nvim folder!
+
+```
+# cd to ~/.config
+cd ~/.config
+# backup current config
+cp -r nvim nvim.backup
+# clone repo
+git clone https://github.com/Rhull11/Rhull11-s-neovim-config nvim
+# open nvim to automatically install plugins
+nvim
+```
 
 ## Plugins Included
 
