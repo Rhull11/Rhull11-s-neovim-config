@@ -10,7 +10,7 @@ return {
         config = function()
             require("mason-lspconfig").setup({
             vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, {}),
-                ensure_installed = { "lua_ls", "pylsp" }
+                ensure_installed = { "lua_ls", "ruff_lsp" }
             })
         end
     },
@@ -23,7 +23,7 @@ return {
             lspconfig.lua_ls.setup({
                 capabilities = capabilities
             })
-            lspconfig.pyright.setup({
+            lspconfig.ruff_lsp.setup({
                 capabilities = capabilities
             })
 
