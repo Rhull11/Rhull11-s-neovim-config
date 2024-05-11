@@ -9,6 +9,7 @@ return {
         "williamboman/mason-lspconfig.nvim",
         config = function()
             require("mason-lspconfig").setup({
+            vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, {}),
                 ensure_installed = { "lua_ls", "pyright" }
             })
         end
