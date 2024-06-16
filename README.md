@@ -18,7 +18,7 @@ nvim
 
 ## Plugins Included
 
-Plugin Package Manager: [Lazy](https://github.com/folke/lazy.nvim)
+Plugin Package Manager: [Lazy](https://github.com/folke/lazy.nvim) </br>
 Auto-pairing: [AutoPairs](https://github.com/windwp/nvim-autopairs)
 Splash theme: [Alpha](https://github.com/goolord/alpha-nvim)  
 Editor theme: [kanagawa](https://github.com/rebelot/kanagawa.nvim) (using kanagawa-wave theme)  
