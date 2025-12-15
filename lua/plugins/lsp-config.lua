@@ -12,7 +12,7 @@ return {
         config = function()
             require("mason-lspconfig").setup({
                 vim.keymap.set("n", "gi", vim.lsp.buf.implementation, {}),
-                ensure_installed = { "lua_ls", "pyright", "ruff_lsp"},
+                ensure_installed = { "lua_ls", "pyright", "ruff"},
             })
         end,
     },
@@ -21,16 +21,17 @@ return {
         config = function()
             local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
-            local lspconfig = require("lspconfig")
-            lspconfig.lua_ls.setup({
+            vim.lsp.config("lua_ls", {
                 capabilities = capabilities,
             })
-            lspconfig.pyright.setup({
+            vim.lsp.config("pyright", {
                 capabilities = capabilities,
             })
-            lspconfig.ruff_lsp.setup({
+            vim.lsp.config("ruff", {
                 capabilities = capabilities,
             })
+
+            vim.lsp.enable({"lua_ls", "pyright", "ruff"})
 
             vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
             vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
